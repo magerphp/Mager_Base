@@ -1,0 +1,8 @@
+{
+    "name": "mager/base",
+    "description": "Mager Base module",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
+}
+
