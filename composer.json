@@ -4,7 +4,7 @@
     "require": {
         "php": "^7.0"
     },
-    "type", "magento2-module",
+    "type": "magento2-module",
     "autoload": {
         "files": [
             "registration.php"
