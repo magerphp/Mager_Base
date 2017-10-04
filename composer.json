@@ -1,8 +1,17 @@
 {
-    "name": "mager/base",
+    "name": "mager/module-base",
     "description": "Mager Base module",
     "require": {
-        "php": "^5.3.3 || ^7.0"
+        "php": "^7.0"
+    },
+    "type", "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],    
+        "psr-4": {
+            "Mager\\Base\\": ""    
+        }
     }
 }
 
